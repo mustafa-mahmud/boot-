@@ -1,0 +1,22 @@
+.choose {
+  &__info {
+    background-color: $color-default;
+    color: $color-white;
+    h3 {
+      font-size: 2.5rem;
+    }
+    p {
+    }
+    button:hover {
+      color: $color-light;
+    }
+  }
+  &__details {
+    h5 {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+      color: $color-light;
+      font-weight: 500;
+    }
+  }
+}

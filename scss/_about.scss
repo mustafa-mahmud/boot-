@@ -1,0 +1,19 @@
+.about {
+  &__info {
+    & > * {
+      margin-bottom: 1.5rem;
+    }
+  }
+  &__list {
+    li {
+      display: grid;
+      grid-template-columns: min-content 1fr;
+      gap: 1rem;
+      i {
+        width: 2rem;
+        height: 2rem;
+        font-size: 2rem;
+      }
+    }
+  }
+}

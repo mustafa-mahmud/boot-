@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Boot$</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<!-- 
+		font-family: 'Poppins', sans-serif;
+	 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+	<!-- NAVIGATION -->
+	<section class="navigation">
+		<nav class="navbar navbar-expand-xl navbar-light bg-light py-1">
+			<div class="container">
+				<a class="navigation__logo navbar-brand font-weight-bolder text-primary" href="#">Boot$</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="w-100 collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navigation__nav navbar-nav ml-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Courses</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Events</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Pricing</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+								aria-expanded="false">
+								Dropdown
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+					<button class="btn py-2 px-3 btn-primary rounded-pill">Get Started</button>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+	<!-- HERO -->
+	<section class="hero mt-5">
+		<div class="container-fluid h-100">
+			<div class="row align-items-center h-100">
+				<div class="col-md-7 p-5 bg-primary">
+					<div class="container">
+						<div class="row justify-content-end">
+							<div class="col-md-10">
+								<h1 class="font-weight-bolder text-white">
+									Learning Today,<br />
+									Leading Tomorrow
+								</h1>
+								<h5 class="my-3 font-weight-bold text-white">We are team of talanted designers making websites with
+									Bootstrap</h5>
+								<button class="btn btn-outline-light rounded-pill py-2 px-4 mt-2">Get Started</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hero__bg col-md-5">
+					<img class="w-100" src="img/hero.gif" alt="image" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ABOUT -->
+	<section class="about py-5">
+		<div class="container py-5">
+			<div class="row py-5 align-items-center">
+				<div class="col-xl-12">
+					<div class="title-subtitle">
+						<span>About</span>
+						<h2>about us</h2>
+					</div>
+				</div>
+				<div class="about__info col-xl-6">
+					<h3>
+						Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+					</h3>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni deserunt laboriosam fugit maiores, eius est
+						itaque eaque.</p>
+					<ul class="about__list">
+						<li>
+							<i class="fa fa-check-circle-o" aria-hidden="true"></i>
+							<p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</li>
+						<li>
+							<i class="fa fa-check-circle-o" aria-hidden="true"></i>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+						</li>
+						<li>
+							<i class="fa fa-check-circle-o" aria-hidden="true"></i>
+							<p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+								voluptate trideta
+								storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+						</li>
+					</ul>
+					<p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+						voluptate</p>
+					<button class="py-2 px-5 btn btn-primary rounded-pill">Lear More</button>
+				</div>
+				<div class="col-xl-6">
+					<img class="w-100 h-100" src="img/about.svg" alt="about image" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- DIGIT UP -->
+	<section class="digit py-5">
+		<div class="container py-5">
+			<div class="row">
+				<div id="my-counter">
+					<div class="counter-container row">
+						<div class="col text-center">
+							<span class="counter" data-set="2500">0</span>
+							<span>STUDENTS</span>
+						</div>
+						<div class="col text-center">
+							<span class="counter" data-set="3500">0</span>
+							<span>CLIENTS</span>
+						</div>
+						<div class="col text-center">
+							<span class="counter" data-set="500">0</span>
+							<span>COURSES</span>
+						</div>
+						<div class="col text-center">
+							<span class="counter" data-set="4500">0</span>
+							<span>HAPPY SERVICES</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CHOOSE -->
+	<section class="choose py-5">
+		<div class="container py-5">
+			<div class="row align-items-center ">
+				<div class="choose__info rounded p-5 col-4">
+					<h3 class="h3 mb-5">Why Choose Mentor?</h3>
+					<p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+						ut labore et
+						dolore magna
+						aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore
+						quibusdam vel
+						necessitatibus optio ad corporis.</p>
+					<button class="btn btn-outline-light px-4 py-2 rounded-pill">Choose Me</button>
+				</div>
+				<div class="choose__details col-8">
+					<div class="row text-center">
+						<div class="col-4 py-5 px-4">
+							<div class="rounded p-3 border">
+								<img class="rounded-circle bg-primary mb-3 d-block mx-auto" src="img/choose/choose1.svg" width="50"
+									height="50" alt="">
+								<h5>Corporis voluptates sit</h5>
+								<p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus sint
+									necessitatibus blanditiis iusto voluptatem, illum dolorum facilis ipsa? Ipsum.</p>
+							</div>
+						</div>
+						<div class="col-4 py-5 px-4">
+							<div class="rounded p-3 border">
+								<img class="rounded-circle bg-primary mb-3 d-block mx-auto" src="img/choose/choose2.svg" width="50"
+									height="50" alt="">
+								<h5>Ullamco laboris ladore pan</h5>
+								<p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus sint
+									necessitatibus blanditiis iusto voluptatem, illum dolorum facilis ipsa? Ipsum.</p>
+							</div>
+						</div>
+						<div class="col-4 py-5 px-4">
+							<div class="rounded p-3 border">
+								<img class="rounded-circle bg-primary mb-3 d-block mx-auto" src="img/choose/choose3.svg" width="50"
+									height="50" alt="">
+								<h5>Labore consequatur</h5>
+								<p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus sint
+									necessitatibus blanditiis iusto voluptatem, illum dolorum facilis ipsa? Ipsum.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SOME CLIENTS -->
+	<section class="clients py-5">
+		<div class="container py-5">
+			<div class="row mb-4">
+				<div class="col-md-3">
+					<div class="clients__hover col-md-12 rounded border  p-3 text-center border-primary">
+						<img src="img/clients/1.svg" width="60" height="60" alt="hellowin">
+						<h5>dolorum</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="clients__hover col-md-12 rounded border  p-3 text-center border-primary">
+						<img src="img/clients/2.svg" width="60" height="60" alt="hellowin">
+						<h5>voluptatem</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="clients__hover col-md-12 rounded border  p-3 text-center border-primary">
+						<img src="img/clients/3.svg" width="60" height="60" alt="hellowin">
+						<h5>facilis</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="clients__hover col-md-12 rounded border  p-3 text-center border-primary">
+						<img src="img/clients/4.svg" width="60" height="60" alt="hellowin">
+						<h5>blanditiis</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mb-4">
+				<div class="col-md-3">
+					<div class="clients__hover col-md-12 rounded border  p-3 text-center border-primary">
+						<img src="img/clients/5.svg" width="60" height="60" alt="hellowin">
+						<h5>adipisicing</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="clients__hover col-md-12 rounded border  p-3 text-center border-primary">
+						<img src="img/clients/6.svg" width="60" height="60" alt="hellowin">
+						<h5>ducimus</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="clients__hover col-md-12 rounded border  p-3 text-center border-primary">
+						<img src="img/clients/7.svg" width="60" height="60" alt="hellowin">
+						<h5>iusto</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="clients__hover col-md-12 rounded border  p-3 text-center border-primary">
+						<img src="img/clients/8.svg" width="60" height="60" alt="hellowin">
+						<h5>necessitatibus</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mb-4">
+				<div class="col-md-3">
+					<div class="clients__hover col-md-12 rounded border  p-3 text-center border-primary">
+						<img src="img/clients/9.svg" width="60" height="60" alt="hellowin">
+						<h5>ipsum</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="clients__hover col-md-12 rounded border  p-3 text-center border-primary">
+						<img src="img/clients/10.svg" width="60" height="60" alt="hellowin">
+						<h5>dolor</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="clients__hover col-md-12 rounded border  p-3 text-center border-primary">
+						<img src="img/clients/11.svg" width="60" height="60" alt="hellowin">
+						<h5>elit</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="clients__hover col-md-12 rounded border  p-3 text-center border-primary">
+						<img src="img/clients/12.svg" width="60" height="60" alt="hellowin">
+						<h5>Ipsum</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- POPULAR -->
+	<section class="popular py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="col-xl-12">
+						<div class="title-subtitle">
+							<span>COURSES</span>
+							<h2>POPULAR COURSES</h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="col-lg-11">
+						<img class="w-100" src="img/popular/coffee.gif" alt="gif">
+						<div class="mb-3 d-flex align-items-center justify-content-between">
+							<span class="px-2 py-1 text-white text-capitalize bg-primary">Client Circle</span>
+							<span class="font-weight-bold f-s-14">$120</span>
+						</div>
+						<h5 class="h4">Copywiriting</h5>
+						<p class="para mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, cum.</p>
+						<div class="popular__info d-flex align-items-center justify-content-between">
+							<div class="d-flex align-items-center">
+								<img class="rounded-circle" width="80" height="80" src="img/popular/avataaars.svg" alt="">
+								<span class="ml-2 f-s-16">Jossy Brown</span>
+							</div>
+							<div>
+								<span class="mr-2">
+									<i class="fa fa-user f-s-15"></i>
+									50
+								</span>
+								<span>
+									<i class="fa fa-heart f-s-15"></i>
+									85
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="col-lg-11">
+						<img class="w-100" src="img/popular/doggie.gif" alt="gif">
+						<div class="mb-3 d-flex align-items-center justify-content-between">
+							<span class="px-2 py-1 text-white text-capitalize bg-primary">Happy Circle</span>
+							<span class="font-weight-bold f-s-14">$220</span>
+						</div>
+						<h5 class="h4">SEO Code</h5>
+						<p class="para mb-3">Lorem ipsum dolor sit cum. amet consectetur adipisicing elit.
+							Excepturi, cum.</p>
+						<div class="popular__info d-flex align-items-center justify-content-between">
+							<div class="d-flex align-items-center">
+								<img class="rounded-circle" width="80" height="80" src="img/popular/avataaars (1).svg" alt="">
+								<span class="ml-2 f-s-16">John Brown</span>
+							</div>
+							<div>
+								<span class="mr-2">
+									<i class="fa fa-user f-s-15"></i>
+									40
+								</span>
+								<span>
+									<i class="fa fa-heart f-s-15"></i>
+									105
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="col-lg-11">
+						<img class="w-100" src="img/popular/sprinting.gif" alt="gif">
+						<div class="mb-3 d-flex align-items-center justify-content-between">
+							<span class="px-2 py-1 text-white text-capitalize bg-primary">Get Circle</span>
+							<span class="font-weight-bold f-s-14">$520</span>
+						</div>
+						<h5 class="h4">SEO Code</h5>
+						<p class="para mb-3">Lorem ipsum dolor sit elit
+							dolorconsectetur adipisicing elit.
+							Excepturi, cum.</p>
+						<div class="popular__info d-flex align-items-center justify-content-between">
+							<div class="d-flex align-items-center">
+								<img class="rounded-circle" width="80" height="80" src="img/popular/avataaars (2).svg" alt="">
+								<span class="ml-2 f-s-16">Andrew Smith</span>
+							</div>
+							<div>
+								<span class="mr-2">
+									<i class="fa fa-user f-s-15"></i>
+									55
+								</span>
+								<span>
+									<i class="fa fa-heart f-s-15"></i>
+									155
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<script src="js/myCounter.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="js/browserSize.js"></script>
+</body>
+
+</html>

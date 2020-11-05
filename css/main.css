@@ -1,0 +1,289 @@
+ul {
+  list-style: none !important;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.d-grid {
+  display: grid !important;
+}
+
+.col-g-1 {
+  gap: 0 1rem;
+}
+
+.col-g-2 {
+  gap: 0 2rem;
+}
+
+.col-g-3 {
+  gap: 0 3rem;
+}
+
+.col-g-4 {
+  gap: 0 4rem;
+}
+
+.col-g-5 {
+  gap: 0 5rem;
+}
+
+.row-g-1 {
+  gap: 1 0rem;
+}
+
+.row-g-2 {
+  gap: 2 0rem;
+}
+
+.row-g-3 {
+  gap: 3 0rem;
+}
+
+.row-g-4 {
+  gap: 4 0rem;
+}
+
+.row-g-5 {
+  gap: 5 0rem;
+}
+
+.g-flow-row {
+  grid-auto-flow: row !important;
+}
+
+.g-flow-col {
+  grid-auto-flow: column !important;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px black;
+}
+
+.f-s-10 {
+  font-size: 1rem;
+}
+
+.f-s-11 {
+  font-size: 1.1rem;
+}
+
+.f-s-12 {
+  font-size: 1.2rem;
+}
+
+.f-s-13 {
+  font-size: 1.3rem;
+}
+
+.f-s-14 {
+  font-size: 1.4rem;
+}
+
+.f-s-15 {
+  font-size: 1.5rem;
+}
+
+.f-s-16 {
+  font-size: 1.6rem;
+}
+
+.f-s-18 {
+  font-size: 1.8rem;
+}
+
+.f-s-20 {
+  font-size: 2rem;
+}
+
+.f-s-25 {
+  font-size: 2.5rem;
+}
+
+.f-s-35 {
+  font-size: 3.5rem;
+}
+
+.f-s-40 {
+  font-size: 4rem;
+}
+
+.f-s-45 {
+  font-size: 4.5rem;
+}
+
+.f-s-50 {
+  font-size: 5rem;
+}
+
+.title-subtitle {
+  margin-bottom: 3rem;
+}
+
+.title-subtitle span {
+  display: inline-block;
+  color: #444444;
+  font-size: 1.6rem;
+  position: relative;
+}
+
+.title-subtitle span::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  left: 110%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5rem;
+  height: 1px;
+  background-color: #777777;
+}
+
+.title-subtitle h2 {
+  font-size: 2.7rem;
+  color: #222222;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.para {
+  line-height: 35px !important;
+  font-size: 1.1rem;
+}
+
+.navigation__logo {
+  font-size: 3rem;
+  transform: scaleY(1.2);
+}
+
+.navigation__nav {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #222;
+}
+
+.navigation__nav li {
+  margin-right: 1rem;
+}
+
+.hero {
+  width: 100%;
+  height: 70vh;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.hero__bg {
+  position: relative;
+  height: 100%;
+}
+
+.hero__bg::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 50%;
+  transform: translate(-50%);
+  background-image: url(../img/bgHero.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about__info > * {
+  margin-bottom: 1.5rem;
+}
+
+.about__list li {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 1rem;
+}
+
+.about__list li i {
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
+}
+
+.digit {
+  background-color: #f4f4f4;
+}
+
+.digit .counter-container span {
+  display: block;
+}
+
+.digit .counter-container span:nth-of-type(1) {
+  font-size: 5rem;
+  color: #0d6efd;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.digit .counter-container span:nth-of-type(2) {
+  font-size: 2rem;
+  color: #222;
+}
+
+.choose__info {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.choose__info h3 {
+  font-size: 2.5rem;
+}
+
+.choose__info button:hover {
+  color: #222;
+}
+
+.choose__details h5 {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #222;
+  font-weight: 500;
+}
+
+.clients__hover {
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.clients__hover:hover {
+  border-color: #222 !important;
+  color: #0d6efd;
+}
+
+.clients h5 {
+  text-transform: capitalize;
+}

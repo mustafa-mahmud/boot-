@@ -1,0 +1,18 @@
+.digit {
+  background-color: #f4f4f4;
+  .counter-container {
+    span {
+      display: block;
+      &:nth-of-type(1) {
+        font-size: 5rem;
+        color: $color-default;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+      &:nth-of-type(2) {
+        font-size: 2rem;
+        color: $color-light;
+      }
+    }
+  }
+}

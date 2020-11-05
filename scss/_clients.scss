@@ -1,0 +1,13 @@
+.clients {
+  &__hover {
+    transition: all 0.2s linear;
+    cursor: pointer;
+    &:hover {
+      border-color: $color-light !important;
+      color: $color-default;
+    }
+  }
+  h5 {
+    text-transform: capitalize;
+  }
+}

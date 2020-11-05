@@ -1,0 +1,75 @@
+.f-s-10 {
+  font-size: 1rem;
+}
+.f-s-11 {
+  font-size: 1.1rem;
+}
+.f-s-12 {
+  font-size: 1.2rem;
+}
+.f-s-13 {
+  font-size: 1.3rem;
+}
+.f-s-14 {
+  font-size: 1.4rem;
+}
+.f-s-15 {
+  font-size: 1.5rem;
+}
+.f-s-16 {
+  font-size: 1.6rem;
+}
+.f-s-18 {
+  font-size: 1.8rem;
+}
+.f-s-20 {
+  font-size: 2rem;
+}
+.f-s-25 {
+  font-size: 2.5rem;
+}
+.f-s-35 {
+  font-size: 3.5rem;
+}
+.f-s-40 {
+  font-size: 4rem;
+}
+.f-s-45 {
+  font-size: 4.5rem;
+}
+.f-s-50 {
+  font-size: 5rem;
+}
+
+.title-subtitle {
+  margin-bottom: 3rem;
+  span {
+    display: inline-block;
+    color: #444444;
+    font-size: 1.6rem;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      left: 110%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 5rem;
+      height: 1px;
+      background-color: #777777;
+    }
+  }
+  h2 {
+    font-size: 2.7rem;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+}
+
+.para {
+  line-height: 35px !important;
+  font-size: 1.1rem;
+}
