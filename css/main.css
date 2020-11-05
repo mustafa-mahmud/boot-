@@ -74,6 +74,26 @@ body {
   -webkit-box-shadow: inset 0 0 6px black;
 }
 
+.f-s-5 {
+  font-size: 0.5rem;
+}
+
+.f-s-6 {
+  font-size: 0.6rem;
+}
+
+.f-s-7 {
+  font-size: 0.7rem;
+}
+
+.f-s-8 {
+  font-size: 0.8rem;
+}
+
+.f-s-9 {
+  font-size: 0.9rem;
+}
+
 .f-s-10 {
   font-size: 1rem;
 }
@@ -162,8 +182,8 @@ body {
 }
 
 .para {
-  line-height: 35px !important;
-  font-size: 1.1rem;
+  line-height: 30px !important;
+  font-size: 0.9rem;
 }
 
 .navigation__logo {
@@ -172,7 +192,7 @@ body {
 }
 
 .navigation__nav {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #222;
 }
@@ -196,26 +216,6 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   font-weight: 500;
-}
-
-.hero__bg {
-  position: relative;
-  height: 100%;
-}
-
-.hero__bg::after {
-  content: '';
-  position: absolute;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  z-index: -2;
-  left: 50%;
-  transform: translate(-50%);
-  background-image: url(../img/bgHero.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .about__info > * {
@@ -250,7 +250,7 @@ body {
 }
 
 .digit .counter-container span:nth-of-type(2) {
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: #222;
 }
 
