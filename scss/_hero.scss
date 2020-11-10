@@ -1,14 +1,35 @@
 .hero {
-  width: 100%;
-  height: 70vh;
-  h1 {
-    font-size: 3.5rem;
-    font-weight: 900;
-    font-family: 'Poppins', sans-serif;
-  }
-  h5 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-    font-weight: 500;
-  }
+	width: 100%;
+	height: 70vh;
+
+	@media only screen and (max-width: $bp-767) {
+		height: 100%;
+	}
+
+
+	h1 {
+		font-size: 3.5rem;
+		font-weight: 900;
+		font-family: 'Poppins', sans-serif;
+
+		@media only screen and (max-width: $bp-1200) {
+			font-size: 2.5rem;
+		}
+
+		@media only screen and (max-width: $bp-1000) {
+			font-size: 2rem;
+		}
+
+
+	}
+
+	h5 {
+		font-family: 'Poppins', sans-serif;
+		font-size: 2rem;
+		font-weight: 500;
+
+		@media only screen and (max-width: $bp-1200) {
+			font-size: 1.5rem;
+		}
+	}
 }

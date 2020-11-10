@@ -1,90 +1,119 @@
 .f-s-5 {
-  font-size: 0.5rem;
+	font-size: 0.5rem;
 }
+
 .f-s-6 {
-  font-size: 0.6rem;
+	font-size: 0.6rem;
 }
+
 .f-s-7 {
-  font-size: 0.7rem;
+	font-size: 0.7rem;
 }
+
 .f-s-8 {
-  font-size: 0.8rem;
+	font-size: 0.8rem;
 }
+
 .f-s-9 {
-  font-size: 0.9rem;
+	font-size: 0.9rem;
 }
+
 .f-s-10 {
-  font-size: 1rem;
+	font-size: 1rem;
 }
+
 .f-s-11 {
-  font-size: 1.1rem;
+	font-size: 1.1rem;
 }
+
 .f-s-12 {
-  font-size: 1.2rem;
+	font-size: 1.2rem;
 }
+
 .f-s-13 {
-  font-size: 1.3rem;
+	font-size: 1.3rem;
 }
+
 .f-s-14 {
-  font-size: 1.4rem;
+	font-size: 1.4rem;
 }
+
 .f-s-15 {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
+
 .f-s-16 {
-  font-size: 1.6rem;
+	font-size: 1.6rem;
 }
+
 .f-s-18 {
-  font-size: 1.8rem;
+	font-size: 1.8rem;
 }
+
 .f-s-20 {
-  font-size: 2rem;
+	font-size: 2rem;
 }
+
 .f-s-25 {
-  font-size: 2.5rem;
+	font-size: 2.5rem;
 }
+
 .f-s-35 {
-  font-size: 3.5rem;
+	font-size: 3.5rem;
 }
+
 .f-s-40 {
-  font-size: 4rem;
+	font-size: 4rem;
 }
+
 .f-s-45 {
-  font-size: 4.5rem;
+	font-size: 4.5rem;
 }
+
 .f-s-50 {
-  font-size: 5rem;
+	font-size: 5rem;
 }
 
 .title-subtitle {
-  margin-bottom: 3rem;
-  span {
-    display: inline-block;
-    color: #444444;
-    font-size: 1.6rem;
-    position: relative;
-    &::after {
-      content: '';
-      position: absolute;
-      display: inline-block;
-      left: 110%;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 5rem;
-      height: 1px;
-      background-color: #777777;
-    }
-  }
-  h2 {
-    font-size: 2.7rem;
-    color: #222222;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-  }
+	margin-bottom: 3rem;
+
+	span {
+		display: inline-block;
+		color: #444444;
+		font-size: 1.6rem;
+		position: relative;
+
+		@media only screen and (max-width: $bp-1200) {
+			font-size: 1.2rem;
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			display: inline-block;
+			left: 110%;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 5rem;
+			height: 1px;
+			background-color: #777777;
+		}
+	}
+
+	h2 {
+		font-size: 2.7rem;
+		color: #222222;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: 2px;
+
+		@media only screen and (max-width: $bp-1200) {
+			font-size: 2rem;
+		}
+	}
 }
 
 .para {
-  line-height: 30px !important;
-  font-size: 0.9rem;
+	line-height: 30px !important;
+	font-size: 0.9rem;
 }
